@@ -1,0 +1,9 @@
+
+{
+  "name": "Fahz GPT - Personal AI Hub",
+  "description": "Fahz GPT adalah asisten AI kustom yang ditenagai oleh Gemini, dibuat oleh Fahz-Company. Platform ini memungkinkan Anda mengonfigurasi dan mendeploy AI pribadi Anda.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
