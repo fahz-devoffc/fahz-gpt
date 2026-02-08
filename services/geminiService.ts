@@ -6,7 +6,7 @@ export class GeminiService {
   private getClient() {
     const apiKey = process.env.API_KEY;
     
-    if (!apiKey || apiKey === "undefined" || apiKey === "") {
+    if (!apiKey || apiKey === "undefined" || apiKey === "AIzaSyARk5u_JGfugc1R-HzKj_l6IUyxf9MsRxc") {
       throw new Error("API_KEY_NOT_FOUND: Masukkan API Key Anda di Environment Variables Vercel.");
     }
     
